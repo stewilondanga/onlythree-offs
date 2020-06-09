@@ -99,14 +99,14 @@ body {
   background: #F06292;
 }
 
-/*.title {
+.title {
   margin-bottom: 64px;
   font: 700 32px/1.2 Montserrat, sans-serif;
   text-transform: uppercase;
   color: #F06292;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }

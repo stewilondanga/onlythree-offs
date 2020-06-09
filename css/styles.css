@@ -36,11 +36,12 @@ body {
   text-align: center;
 }
 
-/*.switch {
+.switch {
   display: flex;
   justify-content: center;
 }
-.switch + .switch {
+
+/*.switch + .switch {
   margin-top: 32px;
 }
 

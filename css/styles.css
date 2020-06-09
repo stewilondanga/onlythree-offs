@@ -31,12 +31,12 @@ body {
   height: 1.5em;
 }
 
-/*.wrapper {
+.wrapper {
   margin: auto;
   text-align: center;
 }
 
-.switch {
+/*.switch {
   display: flex;
   justify-content: center;
 }

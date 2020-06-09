@@ -45,11 +45,11 @@ body {
   margin-top: 32px;
 }
 
-/*.switch__input {
+.switch__input {
   display: none;
 }
 
-.switch__label {
+/*.switch__label {
   position: relative;
   display: inline-flex;
   font: 700 24px/1.2 Montserrat, sans-serif;

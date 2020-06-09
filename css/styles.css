@@ -49,14 +49,15 @@ body {
   display: none;
 }
 
-/*.switch__label {
+.switch__label {
   position: relative;
   display: inline-flex;
   font: 700 24px/1.2 Montserrat, sans-serif;
   color: #b8b8b8;
   transition: all .4s ease-out;
 }
-.switch__label::before {
+
+/*.switch__label::before {
   content: "";
   display: inline-flex;
   margin-right: 12px;

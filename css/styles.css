@@ -90,11 +90,12 @@ body {
   color: #ee4b82;
 }
 
-/*.switch__input:checked ~ .switch__label::after {
+.switch__input:checked~.switch__label::after {
   top: 3px;
   left: 35px;
 }
-.switch__input:checked ~ .switch__label::before {
+
+/*.switch__input:checked ~ .switch__label::before {
   background: #F06292;
 }
 

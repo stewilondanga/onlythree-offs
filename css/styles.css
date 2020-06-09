@@ -95,11 +95,11 @@ body {
   left: 35px;
 }
 
-/*.switch__input:checked ~ .switch__label::before {
+.switch__input:checked~.switch__label::before {
   background: #F06292;
 }
 
-.title {
+/*.title {
   margin-bottom: 64px;
   font: 700 32px/1.2 Montserrat, sans-serif;
   text-transform: uppercase;

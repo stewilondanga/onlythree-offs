@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+:root {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -22,10 +28,6 @@
   height: 1.5em;
 }
 
-:root {
-  box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
-}
 :root * {
   box-sizing: inherit;
   font-family: inherit;

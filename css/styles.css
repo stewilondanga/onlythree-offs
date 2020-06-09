@@ -86,10 +86,11 @@ body {
   transition: all .2s ease-out;
 }
 
-/*.switch__input:checked ~ .switch__label {
+.switch__input:checked~.switch__label {
   color: #ee4b82;
 }
-.switch__input:checked ~ .switch__label::after {
+
+/*.switch__input:checked ~ .switch__label::after {
   top: 3px;
   left: 35px;
 }

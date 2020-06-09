@@ -5,6 +5,11 @@
   font-family: Montserrat, sans-serif;
 }
 
+:root * {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -28,10 +33,6 @@
   height: 1.5em;
 }
 
-:root * {
-  box-sizing: inherit;
-  font-family: inherit;
-}
 
 body {
   display: flex;

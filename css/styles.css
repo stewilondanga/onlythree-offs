@@ -21,6 +21,92 @@ body {
   height: 1.5em;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+:root {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+:root * {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body {
+  display: flex;
+  background: #fafafa;
+  height: 100vh;
+}
+
+.wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+}
+.switch + .switch {
+  margin-top: 32px;
+}
+
+.switch__input {
+  display: none;
+}
+
+.switch__label {
+  position: relative;
+  display: inline-flex;
+  font: 700 24px/1.2 Montserrat, sans-serif;
+  color: #b8b8b8;
+  transition: all .4s ease-out;
+}
+.switch__label::before {
+  content: "";
+  display: inline-flex;
+  margin-right: 12px;
+  width: 60px;
+  height: 28px;
+  background: #d1d1d1;
+  border: none;
+  border-radius: 14px;
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+  transition: all .2s;
+}
+.switch__label::after {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  content: "";
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  background: white;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.1));
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-out;
+}
+
+.switch__input:checked ~ .switch__label {
+  color: #ee4b82;
+}
+.switch__input:checked ~ .switch__label::after {
+  top: 3px;
+  left: 35px;
+}
+.switch__input:checked ~ .switch__label::before {
+  background: #F06292;
+}
+
+.title {
+  margin-bottom: 64px;
+  font: 700 32px/1.2 Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #F06292;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
